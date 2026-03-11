@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Khan Abdullah Mohammad Hanif — Full Stack Developer & AI Research Associate. Portfolio showcasing projects, skills, and experience." />
+  <meta name="keywords" content="Full Stack Developer, React, PHP, AI, Portfolio, Mumbai, Web Developer" />
+  <meta name="author" content="Khan Abdullah Mohammad Hanif" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Khan Abdullah — Full Stack Developer" />
+  <meta property="og:description" content="Building fast, beautiful, AI-powered web experiences." />
+  <meta property="og:type" content="website" />
+
+  <title>Khan Abdullah — Full Stack Developer & AI Engineer</title>
+
+  <!-- Favicon (emoji fallback) -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- Scroll Progress -->
+  <div id="scroll-progress" role="progressbar" aria-label="Page scroll progress"></div>
+
+  <!-- Skip Link -->
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- ═══════════════════════════════════════════════════════
+       NAVBAR
+  ═══════════════════════════════════════════════════════ -->
+  <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <a href="#hero" class="nav-logo" aria-label="Back to top">&lt;AK/&gt;</a>
+
+    <ul class="nav-links" role="list">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle color theme">
+        <i id="theme-icon" class="fas fa-sun"></i>
+      </button>
+      <a href="#contact" class="nav-links nav-cta">Hire Me 🚀</a>
+    </div>
+
+    <button class="hamburger" id="hamburger" aria-label="Toggle mobile menu" aria-expanded="false"
+      aria-controls="mobile-nav">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Nav -->
+  <nav class="mobile-nav" id="mobile-nav" role="navigation" aria-label="Mobile navigation">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main id="main-content">
+
+    <!-- ═══════════════════════════════════════════════════════
+         HERO
+    ═══════════════════════════════════════════════════════ -->
+    <section id="hero" aria-label="Introduction">
+      <div id="particles-canvas" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow-1" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow-2" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow-3" aria-hidden="true"></div>
+
+      <div class="hero-inner">
+        <div class="hero-content">
+          <div class="hero-badge" role="status">
+            <span class="dot" aria-hidden="true"></span>
+            Open to New Opportunities
+          </div>
+
+          <p class="hero-greeting">Hey there, I'm</p>
+
+          <h1 class="hero-name">
+            <span class="grad-text">Khan Abdullah</span><br />
+            Mohammad Haneef
+          </h1>
+
+          <div class="hero-roles" aria-live="polite">
+            <span id="typed-role" class="typed"></span><span class="cursor-blink" aria-hidden="true"></span>
+          </div>
+
+          <p class="hero-tagline">
+            Full Stack Developer with a passion for AI-powered products. Building responsive, scalable web experiences
+            using React, PHP, MySQL &amp; modern AI tools. Based in Mumbai 🇮🇳.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn-primary">
+              <i class="fas fa-rocket" aria-hidden="true"></i>
+              View My Work
+            </a>
+            <a href="#contact" class="btn-secondary">
+              <i class="fas fa-envelope" aria-hidden="true"></i>
+              Let's Talk
+            </a>
+          </div>
+
+          <nav class="hero-socials" aria-label="Social links">
+            <a href="https://github.com/abdulllaahh98" target="_blank" rel="noopener noreferrer"
+              aria-label="GitHub Profile">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/abdullah/" target="_blank" rel="noopener noreferrer"
+              aria-label="LinkedIn Profile">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="mailto:abdulkhan20041@gmail.com" aria-label="Send Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+            <a href="tel:+919167159332" aria-label="Call Phone">
+              <i class="fas fa-phone"></i>
+            </a>
+          </nav>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="avatar-ring">
+            <div class="avatar-inner">
+              <img src="assets/hero-avatar.png" alt="Full Stack Developer illustration" />
+            </div>
+          </div>
+
+          <div class="hero-code-card">
+            <div class="code-line"><span class="key">const</span> <span class="val">dev</span> = {</div>
+            <div class="code-line">&nbsp;&nbsp;<span class="str">name</span>: <span class="val">"Abdullah"</span>,</div>
+            <div class="code-line">&nbsp;&nbsp;<span class="str">role</span>: <span class="val">"Full Stack"</span>,
+            </div>
+            <div class="code-line">&nbsp;&nbsp;<span class="str">stack</span>: [<span class="val">"React"</span>,</div>
+            <div class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="val">"PHP"</span>, <span
+                class="val">"MySQL"</span>],</div>
+            <div class="code-line">&nbsp;&nbsp;<span class="str">ai</span>: <span class="val">true</span>,</div>
+            <div class="code-line">&nbsp;&nbsp;<span class="str">coffee</span>: <span class="val">Infinity</span></div>
+            <div class="code-line">};</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-cue" aria-hidden="true">
+        <div class="arrow"></div>
+        <span>SCROLL</span>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════
+         ABOUT
+    ═══════════════════════════════════════════════════════ -->
+    <section id="about">
+      <div class="section-inner">
+        <div class="about-grid">
+          <!-- Left: Profile Card -->
+          <div class="about-card reveal-left">
+            <div class="about-avatar" aria-hidden="true">AK</div>
+            <div class="about-card-name">Khan Abdullah</div>
+            <div class="about-card-role">Full Stack Developer & AI Engineer</div>
+
+            <div class="about-stat-row">
+              <div class="about-stat">
+                <div class="stat-number" data-target="5" aria-label="5 projects">
+                  <span class="count" data-target="5">0</span>+
+                </div>
+                <div class="stat-label">Projects</div>
+              </div>
+              <div class="about-stat">
+                <div class="stat-number" aria-label="2 roles">
+                  <span class="count" data-target="2">0</span>+
+                </div>
+                <div class="stat-label">Roles</div>
+              </div>
+              <div class="about-stat">
+                <div class="stat-number" aria-label="6.43 CGPA">
+                  <span class="count" data-target="6.43">0</span>
+                </div>
+                <div class="stat-label">CGPA</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Bio -->
+          <div class="about-content reveal-right">
+            <span class="section-label" aria-hidden="true">About Me</span>
+            <h2 class="section-title">Crafting Digital<br /><span class="grad-text">Experiences</span></h2>
+
+            <p class="about-bio">
+              I'm a Full Stack Developer experienced in building responsive and functional websites using HTML, CSS,
+              JavaScript, PHP, and SQL. Skilled in e-commerce development, backend integration, and leveraging AI tools
+              to accelerate workflows.
+            </p>
+            <p class="about-bio">
+              With a background in AI research and LLM testing, I bridge the gap between traditional web development and
+              modern AI-driven solutions. Currently pursuing my B.Sc. IT at the University of Mumbai (Sheth N.K.T.T
+              College).
+            </p>
+
+            <div class="about-info-grid" role="list">
+              <div class="info-item" role="listitem">
+                <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                <div>
+                  <div>Location</div><strong>Mumbai, Maharashtra 400604</strong>
+                </div>
+              </div>
+              <div class="info-item" role="listitem">
+                <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                <div>
+                  <div>Education</div><strong>B.Sc. IT (2022–2025)</strong>
+                </div>
+              </div>
+              <div class="info-item" role="listitem">
+                <i class="fas fa-briefcase" aria-hidden="true"></i>
+                <div>
+                  <div>Current Role</div><strong>Full Stack Dev @ Good Old Delight</strong>
+                </div>
+              </div>
+              <div class="info-item" role="listitem">
+                <i class="fas fa-envelope" aria-hidden="true"></i>
+                <div>
+                  <div>Email</div><strong>abdulkhan20041@gmail.com</strong>
+                </div>
+              </div>
+            </div>
+
+            <a href="#contact" class="btn-primary" style="width:fit-content;">
+              <i class="fas fa-paper-plane" aria-hidden="true"></i>
+              Get In Touch
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════
+         SKILLS
+    ═══════════════════════════════════════════════════════ -->
+    <section id="skills" aria-labelledby="skills-heading">
+      <div class="section-inner">
+        <span class="section-label reveal" aria-hidden="true">Expertise</span>
+        <h2 id="skills-heading" class="section-title reveal">My Tech <span class="grad-text">Stack</span></h2>
+        <p class="section-subtitle reveal">A curated set of tools and technologies I use to build powerful, AI-enhanced
+          web applications.</p>
+
+        <div class="skills-grid" data-stagger>
+          <div class="skill-category">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon cat-purple">
+                <i class="fas fa-code" aria-hidden="true"></i>
+              </div>
+              <div class="skill-cat-name">Languages</div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">PHP</span>
+              <span class="skill-tag">SQL</span>
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon cat-blue">
+                <i class="fab fa-react" aria-hidden="true"></i>
+              </div>
+              <div class="skill-cat-name">Frameworks & Libraries</div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">React JS</span>
+              <span class="skill-tag">Spring Boot</span>
+              <span class="skill-tag">REST APIs</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon cat-cyan">
+                <i class="fas fa-robot" aria-hidden="true"></i>
+              </div>
+              <div class="skill-cat-name">AI Tools</div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Claude</span>
+              <span class="skill-tag">Google Gemini</span>
+              <span class="skill-tag">Groq</span>
+              <span class="skill-tag">LangChain</span>
+              <span class="skill-tag">API Integration</span>
+              <span class="skill-tag">Prompt Engineering</span>
+              <span class="skill-tag">Hugging Face</span>
+              <span class="skill-tag">Google Stitch</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon cat-green">
+                <i class="fas fa-database" aria-hidden="true"></i>
+              </div>
+              <div class="skill-cat-name">Databases & Analytics</div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">MySQL</span>
+              <span class="skill-tag">PostgreSQL</span>
+              <span class="skill-tag">Excel</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon cat-pink">
+                <i class="fas fa-cloud" aria-hidden="true"></i>
+              </div>
+              <div class="skill-cat-name">Cloud & DevOps</div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">GitHub</span>
+              <span class="skill-tag">Docker</span>
+              <span class="skill-tag">CI/CD</span>
+              <span class="skill-tag">REST APIs</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon cat-purple">
+                <i class="fas fa-pencil-ruler" aria-hidden="true"></i>
+              </div>
+              <div class="skill-cat-name">Design & Tools</div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Figma</span>
+              <span class="skill-tag">Canva</span>
+              <span class="skill-tag">VS Code</span>
+              <span class="skill-tag">Web Scraping</span>
+              <span class="skill-tag">JSON</span>
+              <span class="skill-tag">Chrome Extensions</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════
+         EXPERIENCE
+    ═══════════════════════════════════════════════════════ -->
+    <section id="experience" aria-labelledby="experience-heading">
+      <div class="section-inner">
+        <span class="section-label reveal" aria-hidden="true">Career</span>
+        <h2 id="experience-heading" class="section-title reveal">Work <span class="grad-text">Experience</span></h2>
+        <p class="section-subtitle reveal">My professional journey building products and exploring AI-driven
+          technologies.</p>
+
+        <div class="timeline" role="list">
+
+          <!-- Entry 1: Current -->
+          <article class="timeline-item reveal" role="listitem">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Full Stack Developer</h3>
+                  <div class="timeline-company">Good Old Delight</div>
+                </div>
+                <span class="timeline-period current">
+                  <i class="fas fa-circle" style="font-size:0.5rem;" aria-hidden="true"></i>
+                  Dec 2025 – Present
+                </span>
+              </div>
+              <ul class="timeline-bullets">
+                <li>Developed responsive websites using HTML, CSS, JS, PHP &amp; MySQL.</li>
+                <li>Implemented backend logic, database integration &amp; authentication systems.</li>
+                <li>Built e-commerce modules including product listings &amp; payment flow.</li>
+                <li>Used AI tools to optimize UI/UX and accelerate development workflows.</li>
+                <li>Collaborated using Git &amp; GitHub for version control and team coordination.</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Entry 2 -->
+          <article class="timeline-item reveal" role="listitem" data-delay="100">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">AI Research &amp; Development Associate</h3>
+                  <div class="timeline-company">Good Old Delight</div>
+                </div>
+                <span class="timeline-period">Aug 2025 – Nov 2025</span>
+              </div>
+              <ul class="timeline-bullets">
+                <li>Conducted LLM testing, prompt engineering, and AI tool evaluation.</li>
+                <li>Analyzed and compared multiple AI models for accuracy and performance.</li>
+                <li>Tested Generative AI tools for automation workflows.</li>
+                <li>Prepared structured R&amp;D reports supporting product development decisions.</li>
+              </ul>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════
+         PROJECTS
+    ═══════════════════════════════════════════════════════ -->
+    <section id="projects" aria-labelledby="projects-heading">
+      <div class="section-inner">
+        <span class="section-label reveal" aria-hidden="true">Portfolio</span>
+        <h2 id="projects-heading" class="section-title reveal">Featured <span class="grad-text">Projects</span></h2>
+        <p class="section-subtitle reveal">Real-world applications built with modern technologies — from AI-powered
+          platforms to full e-commerce solutions.</p>
+
+        <div class="projects-grid">
+
+
+          <!-- Bright Outdoor Media -->
+          <article class="project-card reveal" aria-labelledby="proj5-name" data-delay="400">
+            <div class="project-header">
+              <div class="project-icon" aria-hidden="true">📢</div>
+              <nav class="project-links" aria-label="Bright Outdoor Media project links">
+                <a href="https://www.brightoutdoor.com" target="_blank" rel="noopener noreferrer" class="project-link"
+                  aria-label="View Bright Outdoor Media live site">
+                  <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                </a>
+              </nav>
+            </div>
+            <h3 id="proj5-name" class="project-name">Bright Outdoor Media</h3>
+            <p class="project-desc">A multi-page corporate website for BRIGHT Outdoor Media Limited — a leading outdoor
+              advertising company. Features dynamic project showcases, event galleries, cinema branding pages, client
+              testimonials, and working contact forms with data export to Excel via PHP &amp; MySQL backend.</p>
+            <div class="project-tags" role="list" aria-label="Technologies used">
+              <span class="project-tag" role="listitem">HTML</span>
+              <span class="project-tag" role="listitem">CSS</span>
+              <span class="project-tag" role="listitem">JavaScript</span>
+              <span class="project-tag" role="listitem">PHP</span>
+              <span class="project-tag" role="listitem">MySQL</span>
+              <span class="project-tag" role="listitem">Excel Export</span>
+            </div>
+          </article>
+
+          <!-- CourseMate -->
+          <article class="project-card reveal" aria-labelledby="proj1-name">
+            <div class="project-header">
+              <div class="project-icon" aria-hidden="true">🎓</div>
+              <nav class="project-links" aria-label="CourseMate project links">
+                <a href="#" class="project-link" aria-label="View CourseMate source code on GitHub">
+                  <i class="fab fa-github" aria-hidden="true"></i>
+                </a>
+                <a href="https://gcomputer.netlify.app/" target="_blank" rel="noopener noreferrer" class="project-link"
+                  aria-label="View CourseMate live demo">
+                  <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                </a>
+              </nav>
+            </div>
+            <h3 id="proj1-name" class="project-name">CourseMate</h3>
+            <p class="project-desc">A course enrollment web application for students and educational institutions. Led
+              development of the full-stack platform using Spring Boot for the backend and React JS for a responsive,
+              user-friendly frontend. Designed MySQL schema for student details, courses, and enrollment management.</p>
+            <div class="project-tags" role="list" aria-label="Technologies used">
+              <span class="project-tag" role="listitem">Java</span>
+              <span class="project-tag" role="listitem">Spring Boot</span>
+              <span class="project-tag" role="listitem">React JS</span>
+              <span class="project-tag" role="listitem">MySQL</span>
+              <span class="project-tag" role="listitem">REST API</span>
+            </div>
+          </article>
+
+          <!-- E-Commerce -->
+          <article class="project-card reveal" aria-labelledby="proj2-name" data-delay="100">
+            <div class="project-header">
+              <div class="project-icon" aria-hidden="true">🛒</div>
+              <nav class="project-links" aria-label="E-Commerce project links">
+                <a href="#" class="project-link" aria-label="View E-Commerce source code on GitHub">
+                  <i class="fab fa-github" aria-hidden="true"></i>
+                </a>
+                <a href="#" class="project-link" aria-label="View E-Commerce live demo">
+                  <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                </a>
+              </nav>
+            </div>
+            <h3 id="proj2-name" class="project-name">E-Commerce Website</h3>
+            <p class="project-desc">A fully functional e-commerce site featuring dynamic product listings, a responsive
+              shopping cart, integrated payment gateway, and a dedicated admin panel for managing products, orders, and
+              users end-to-end.</p>
+            <div class="project-tags" role="list" aria-label="Technologies used">
+              <span class="project-tag" role="listitem">HTML/CSS</span>
+              <span class="project-tag" role="listitem">JavaScript</span>
+              <span class="project-tag" role="listitem">PHP</span>
+              <span class="project-tag" role="listitem">MySQL</span>
+            </div>
+          </article>
+
+          <!-- Goods Donation -->
+          <article class="project-card reveal" aria-labelledby="proj3-name" data-delay="200">
+            <div class="project-header">
+              <div class="project-icon" aria-hidden="true">❤️</div>
+              <nav class="project-links" aria-label="Goods Donation project links">
+                <a href="#" class="project-link" aria-label="View Goods Donation source code on GitHub">
+                  <i class="fab fa-github" aria-hidden="true"></i>
+                </a>
+                <a href="#" class="project-link" aria-label="View Goods Donation live demo">
+                  <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                </a>
+              </nav>
+            </div>
+            <h3 id="proj3-name" class="project-name">Goods Donation Website</h3>
+            <p class="project-desc">A community platform enabling users to list and donate goods to those in need.
+              Features a dynamic front-end, SQL-based inventory management system, and a seamless donation request
+              workflow.</p>
+            <div class="project-tags" role="list" aria-label="Technologies used">
+              <span class="project-tag" role="listitem">HTML</span>
+              <span class="project-tag" role="listitem">CSS</span>
+              <span class="project-tag" role="listitem">JavaScript</span>
+              <span class="project-tag" role="listitem">SQL</span>
+            </div>
+          </article>
+
+          <!-- Student Results -->
+          <article class="project-card reveal" aria-labelledby="proj4-name" data-delay="300">
+            <div class="project-header">
+              <div class="project-icon" aria-hidden="true">📊</div>
+              <nav class="project-links" aria-label="Student Results Management project links">
+                <a href="#" class="project-link" aria-label="View Student Results source code on GitHub">
+                  <i class="fab fa-github" aria-hidden="true"></i>
+                </a>
+                <a href="#" class="project-link" aria-label="View Student Results live demo">
+                  <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                </a>
+              </nav>
+            </div>
+            <h3 id="proj4-name" class="project-name">Student Results Management System</h3>
+            <p class="project-desc">A secure academic portal allowing institutions to manage and publish student results
+              with role-based access control and data encryption. Ensures data integrity and authorized access to
+              sensitive academic records.</p>
+            <div class="project-tags" role="list" aria-label="Technologies used">
+              <span class="project-tag" role="listitem">PHP</span>
+              <span class="project-tag" role="listitem">MySQL</span>
+              <span class="project-tag" role="listitem">HTML/CSS</span>
+              <span class="project-tag" role="listitem">JavaScript</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════
+         CERTIFICATIONS
+    ═══════════════════════════════════════════════════════ -->
+    <section id="certifications" aria-labelledby="cert-heading">
+      <div class="section-inner">
+        <span class="section-label reveal" aria-hidden="true">Credentials</span>
+        <h2 id="cert-heading" class="section-title reveal"><span class="grad-text">Certifications</span></h2>
+        <p class="section-subtitle reveal">Verified credentials from industry-leading organizations.</p>
+
+        <div class="cert-grid">
+          <article class="cert-card reveal" aria-labelledby="cert1-name">
+            <div class="cert-icon" aria-hidden="true">📊</div>
+            <div>
+              <h3 id="cert1-name" class="cert-name">Data Analytics Job Simulation</h3>
+              <div class="cert-issuer">Deloitte</div>
+              <div class="cert-date">
+                <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+                October 2025 · Forage
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════
+         CONTACT
+    ═══════════════════════════════════════════════════════ -->
+    <section id="contact" aria-labelledby="contact-heading">
+      <div class="section-inner">
+        <span class="section-label reveal" aria-hidden="true">Contact</span>
+        <h2 id="contact-heading" class="section-title reveal">Let's <span class="grad-text">Connect</span></h2>
+        <p class="section-subtitle reveal">Have a project in mind or just want to say hi? I'm always open to new
+          opportunities and collaborations.</p>
+
+        <div class="contact-grid">
+          <!-- Contact Info -->
+          <div class="contact-info">
+            <p class="contact-blurb reveal">
+              I'm currently open to full-time roles, freelance contracts, and exciting collaboration opportunities.
+              Whether you need a full stack developer, an AI integrations expert, or just want to chat tech — I'd love
+              to hear from you.
+            </p>
+
+            <div class="contact-items">
+              <a href="mailto:abdulkhan20041@gmail.com" class="contact-item reveal"
+                aria-label="Send email to abdulkhan20041@gmail.com">
+                <div class="contact-item-icon ci-purple">
+                  <i class="fas fa-envelope" aria-hidden="true"></i>
+                </div>
+                <div>
+                  <div class="contact-item-label">Email</div>
+                  <div class="contact-item-val">abdulkhan20041@gmail.com</div>
+                </div>
+              </a>
+
+              <a href="tel:+919167159332" class="contact-item reveal" aria-label="Call +91 9167159332">
+                <div class="contact-item-icon ci-green">
+                  <i class="fas fa-phone" aria-hidden="true"></i>
+                </div>
+                <div>
+                  <div class="contact-item-label">Phone</div>
+                  <div class="contact-item-val">+91 9167 159 332</div>
+                </div>
+              </a>
+
+              <a href="https://www.linkedin.com/in/abdullah/" target="_blank" rel="noopener noreferrer"
+                class="contact-item reveal" aria-label="View LinkedIn profile">
+                <div class="contact-item-icon ci-blue">
+                  <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                </div>
+                <div>
+                  <div class="contact-item-label">LinkedIn</div>
+                  <div class="contact-item-val">linkedin.com/in/abdullah</div>
+                </div>
+              </a>
+
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="contact-item reveal"
+                aria-label="View GitHub profile">
+                <div class="contact-item-icon ci-pink">
+                  <i class="fab fa-github" aria-hidden="true"></i>
+                </div>
+                <div>
+                  <div class="contact-item-label">GitHub</div>
+                  <div class="contact-item-val">github.com/abdulkhan</div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form reveal-right">
+            <form id="contact-form" novalidate aria-label="Contact form">
+              <!-- Web3Forms Config -->
+              <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
+              <input type="hidden" name="from_name" value="Portfolio Contact Form" />
+              <input type="hidden" name="redirect" value="" />
+              <input type="checkbox" name="botcheck" style="display:none;" />
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="cf-name">Full Name <span aria-hidden="true">*</span></label>
+                  <input type="text" id="cf-name" name="name" placeholder="Your full name" autocomplete="name" required
+                    aria-required="true" aria-describedby="err-name" />
+                  <span id="err-name" class="form-error" role="alert" aria-live="polite"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="cf-email">Email Address <span aria-hidden="true">*</span></label>
+                  <input type="email" id="cf-email" name="email" placeholder="your@email.com" autocomplete="email"
+                    required aria-required="true" aria-describedby="err-email" />
+                  <span id="err-email" class="form-error" role="alert" aria-live="polite"></span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="cf-subject">Subject <span aria-hidden="true">*</span></label>
+                <input type="text" id="cf-subject" name="subject" placeholder="e.g. Project Collaboration" required
+                  aria-required="true" aria-describedby="err-subject" />
+                <span id="err-subject" class="form-error" role="alert" aria-live="polite"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="cf-message">Message <span aria-hidden="true">*</span></label>
+                <textarea id="cf-message" name="message" placeholder="Tell me about your project or opportunity..."
+                  required aria-required="true" aria-describedby="err-message"></textarea>
+                <span id="err-message" class="form-error" role="alert" aria-live="polite"></span>
+              </div>
+
+              <button type="submit" class="form-submit" id="form-submit-btn">
+                <i class="fas fa-paper-plane" aria-hidden="true"></i>
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════════════════ -->
+  <footer role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-logo">&lt;AK/&gt;</div>
+      <p class="footer-copy">
+        © 2025 Khan Abdullah Mohammad Hanif · Mumbai
+      </p>
+      <nav class="footer-socials" aria-label="Footer social links">
+        <a href="https://github.com/abdulllaahh98" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <i class="fab fa-github" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/abdullah/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+        </a>
+        <a href="mailto:abdulkhan20041@gmail.com" aria-label="Email">
+          <i class="fas fa-envelope" aria-hidden="true"></i>
+        </a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button id="back-to-top" aria-label="Scroll back to top">
+    <i class="fas fa-arrow-up" aria-hidden="true"></i>
+  </button>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast" role="status" aria-live="polite">
+    <i class="fas fa-check-circle toast-icon" aria-hidden="true"></i>
+    <span class="toast-msg"></span>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
